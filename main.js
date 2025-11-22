@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
         btn.disabled = true;
 
         // https://azrieal-server.vercel.app/api/submit/
-        fetch("https://azrieal.vercel.app/api/sendOrder/", {
+        fetch("/api/sendOrder/", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(orderData),
@@ -167,5 +167,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     });
 });
+
 
 
