@@ -132,7 +132,8 @@ document.addEventListener("DOMContentLoaded", function () {
         btn.textContent = "جاري الإرسال...";
         btn.disabled = true;
 
-        fetch("https://azrieal-server.vercel.app/api/submit/", {
+        // https://azrieal-server.vercel.app/api/submit/
+        fetch("https://azrieal.vercel.app/api/sendOrder", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(orderData),
