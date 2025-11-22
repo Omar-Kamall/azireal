@@ -132,8 +132,8 @@ document.addEventListener("DOMContentLoaded", function () {
         btn.textContent = "جاري الإرسال...";
         btn.disabled = true;
 
-        // https://azrieal-server.vercel.app/api/submit/
-        fetch("/api/sendOrder/", {
+        // https://azrieal-server.vercel.app/api/submit/    /api/sendOrder/
+        fetch("https://script.google.com/macros/s/AKfycbxN77-hJCEVaPz5yvmAfWmBrKBMKBEqf1d11SZArH6t0Fo8g5mCwj1jhIx1vaS4BdGs/exec", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(orderData),
@@ -167,6 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     });
 });
+
 
 
 
