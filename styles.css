@@ -580,7 +580,7 @@ footer {
 .hero-slider .carousel-item:nth-child(2) {
   background-image: url("./images/slider/slide2.jpg");
 }
-.carousel-item:nth-child(3) {
+.hero-slider .carousel-item:nth-child(3){
   background-image: url("./images/slider/slide3.png");
 }
 .carousel-item:nth-child(4) {

@@ -101,8 +101,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (productType) {
         productSelect.value =
             productType === "single"
-                ? "كريم AHA للتفتيح وتوحيد اللون - 249 درهم"
-                : "باقة العناية الكاملة (عبوتان) - 400 درهم";
+                ? "كريم AHA للتفتيح وتوحيد اللون - 199 درهم"
+                : productType === "double" ?
+                "باقة العناية الكاملة (عبوتان) - 299 درهم"
+                : "باقة العناية الكاملة (ثلاث عبوات) - 399 درهم"
         updateTotalPrice();
     }
 

@@ -5,13 +5,13 @@
     <meta
       http-equiv="Content-Security-Policy"
       content="
-  default-src 'self';
-  style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://cdnjs.cloudflare.com;
-  script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
-  connect-src 'self' https://script.google.com https://azrieal-server.vercel.app https://cdn.jsdelivr.net;
-  img-src 'self' data: https:;
-  font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-"
+      default-src 'self';
+      style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+      script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+      connect-src 'self' https://script.google.com https://azrieal-server.vercel.app https://cdn.jsdelivr.net;
+      img-src 'self' data: https:;
+      font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+    "
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Azireal Beauty- AHA</title>
@@ -39,7 +39,7 @@
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- style -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- Navigation -->
@@ -137,8 +137,11 @@
             <div class="carousel-item">
               <div class="slide-content">
                 <h1>إليك كريم AHA-Azireal</h1>
-<p>تقشير لطيف يفتح ويوحّد بشرتك بوضوح من أول أسبوع، ويزيل البهتان بأمان.</p>          
-      <a href="#products" class="btn btn-primary btn-lg"
+                <p>
+                  تقشير لطيف يفتح ويوحّد بشرتك بوضوح من أول أسبوع، ويزيل البهتان
+                  بأمان.
+                </p>
+                <a href="#products" class="btn btn-primary btn-lg"
                   >جربيه وشاهدي الفرق</a
                 >
               </div>
@@ -148,7 +151,9 @@
               <div class="slide-content">
                 <h1>نتيجة ملحوظة خلال أول 7 أيام</h1>
                 <p>إشراقة أجمل، نعومة أكثر، وتفتيح تدريجي طبيعي.</p>
-                <a href="#products" class="btn btn-primary btn-lg">ابدئي رحلتك</a>
+                <a href="#products" class="btn btn-primary btn-lg"
+                  >ابدئي رحلتك</a
+                >
               </div>
             </div>
 
@@ -156,7 +161,9 @@
               <div class="slide-content">
                 <h1>مثالي للنساء العاملات</h1>
                 <p>سريع الامتصاص – نتيجة بدون مجهود.</p>
-                <a href="#products" class="btn btn-primary btn-lg">اطلبي الآن</a>
+                <a href="#products" class="btn btn-primary btn-lg"
+                  >اطلبي الآن</a
+                >
               </div>
             </div>
           </div>
@@ -207,12 +214,12 @@
                     <span class="offer-badge">خصم 20%</span>
                     <h2 class="product-title">باقة العناية الكاملة</h2>
                     <p class="product-description">
-                      عبوتان من كريم AHA بسعر 400 درهم فقط للحصول على نتائج أسرع
+                      عبوتان من كريم AHA بسعر 299 درهم فقط للحصول على نتائج أسرع
                       وفعالية أكبر.
                     </p>
                     <div class="price-container">
-                      <span class="original-price">498 درهم</span>
-                      <span class="discount-price pulse">400 درهم</span>
+                      <span class="original-price">400 درهم</span>
+                      <span class="discount-price pulse">299 درهم</span>
                     </div>
                     <a href="#order" class="btn btn-primary">اطلبي الآن</a>
                   </div>
@@ -230,13 +237,42 @@
                       طبقات الجلد من الخلايا الميتة.
                     </p>
                     <div class="price-container">
-                      <span class="discount-price pulse">249 درهم</span>
+                      <span class="original-price">249 درهم</span>
+                      <span class="discount-price pulse">199 درهم</span>
                     </div>
                     <a href="#order" class="btn btn-primary">اطلبي الآن</a>
                   </div>
                   <div class="product-image-container">
                     <img
                       src="./images/product/AHA2.png"
+                      alt="كريم AHA"
+                      class="product-image"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3: كريم AHA للتفتيح -->
+              <div class="carousel-item">
+                <div class="product-slide">
+                  <div class="product-info">
+                    <span class="offer-badge">عرض لفترة محددوة</span>
+                    <h2 class="product-title">
+                      باقة العناية المتكاملة ( المميزة لدينا )
+                    </h2>
+                    <p class="product-description">
+                      ثلاث عبوات من كريم AHA بسعر 399 درهم فقط للحصول على نتائج
+                      أسرع وفعالية أكبر.
+                    </p>
+                    <div class="price-container">
+                      <span class="original-price">597 درهم</span>
+                      <span class="discount-price pulse">399 درهم</span>
+                    </div>
+                    <a href="#order" class="btn btn-primary">اطلبي الآن</a>
+                  </div>
+                  <div class="product-image-container">
+                    <img
+                      src="./images/product/AHA-3.png"
                       alt="كريم AHA"
                       class="product-image"
                     />
@@ -267,7 +303,7 @@
           <!-- Mobile Carousel -->
           <div
             id="productCarouselMobile"
-            class="carousel slide  d-md-none"
+            class="carousel slide d-md-none"
             data-bs-ride="carousel"
             data-bs-interval="3000"
           >
@@ -285,14 +321,14 @@
                     <span class="badge bg-success mb-2">خصم 20%</span>
                     <h5 class="card-title">باقة العناية الكاملة</h5>
                     <p class="card-text small text-muted">
-                      عبوتان من كريم AHA بسعر 400 درهم فقط للحصول على نتائج أسرع
+                      عبوتان من كريم AHA بسعر 299 درهم فقط للحصول على نتائج أسرع
                       وفعالية أكبر.
                     </p>
                     <div class="price-container mb-3">
                       <span class="text-muted text-decoration-line-through me-2"
-                        >498 درهم</span
+                        >400 درهم</span
                       >
-                      <span class="h5 text-danger">400 درهم</span>
+                      <span class="h5 text-danger">299 درهم</span>
                     </div>
                     <a href="#order" class="btn btn-primary w-100"
                       >اطلبي الآن</a
@@ -302,8 +338,8 @@
               </div>
 
               <!-- Mobile Slide 2: كريم AHA للتفتيح -->
-              <div class="carousel-item active">
-                <div class="card border-0 shadow-sm ">
+              <div class="carousel-item">
+                <div class="card border-0 shadow-sm">
                   <img
                     src="./images/product/AHA2.png"
                     class="card-img-top"
@@ -319,9 +355,40 @@
                     </p>
                     <div class="price-container mb-3">
                       <span class="text-muted text-decoration-line-through me-2"
-                        >498 درهم</span
+                        >249 درهم</span
                       >
-                      <span class="h5 text-danger">249 درهم </span>
+                      <span class="h5 text-danger">199 درهم </span>
+                    </div>
+                    <a href="#order" class="btn btn-primary w-100"
+                      >اطلبي الآن</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mobile Slide 3: كريم AHA للتفتيح -->
+              <div class="carousel-item">
+                <div class="card border-0 shadow-sm">
+                  <img
+                    src="./images/product/AHA-3.png"
+                    class="card-img-top"
+                    alt="كريم AHA"
+                    style="height: 250px; object-fit: contain"
+                  />
+                  <div class="card-body text-center d-flex flex-column">
+                    <span class="badge bg-success mb-2">عرض لفترة محدودة</span>
+                    <h5 class="card-title">
+                      باقة العناية المتكاملة ( المميزة لدينا )
+                    </h5>
+                    <p class="card-text small text-muted">
+                      ثلاث عبوات من كريم AHA بسعر 399 درهم فقط للحصول على نتائج
+                      أسرع وفعالية أكبر.
+                    </p>
+                    <div class="price-container mb-3">
+                      <span class="text-muted text-decoration-line-through me-2"
+                        >597 درهم</span
+                      >
+                      <span class="h5 text-danger">399 درهم </span>
                     </div>
                     <a href="#order" class="btn btn-primary w-100"
                       >اطلبي الآن</a
@@ -465,12 +532,18 @@
           <div class="row mb-5">
             <div class="col-md-6 mb-4">
               <div class="before-after fade-in stagger-delay-1">
-                <img src="./images/beforeafter/BA1.png" alt="نتائج قبل وبعد 1" />
+                <img
+                  src="./images/beforeafter/BA1.png"
+                  alt="نتائج قبل وبعد 1"
+                />
               </div>
             </div>
             <div class="col-md-6 mb-4">
               <div class="before-after fade-in stagger-delay-2">
-                <img src="./images/beforeafter/BA2.png" alt="نتائج قبل وبعد 2" />
+                <img
+                  src="./images/beforeafter/BA2.png"
+                  alt="نتائج قبل وبعد 2"
+                />
               </div>
             </div>
           </div>
@@ -671,16 +744,22 @@
                         -- اختر المنتج المطلوب --
                       </option>
                       <option
-                        value="كريم AHA للتفتيح وتوحيد اللون - 249 درهم"
-                        data-price="249"
+                        value="كريم AHA للتفتيح وتوحيد اللون - 199 درهم"
+                        data-price="199"
                       >
-                        كريم AHA للتفتيح وتوحيد اللون - 249 درهم
+                        كريم AHA للتفتيح وتوحيد اللون - 199 درهم
                       </option>
                       <option
-                        value="باقة العناية الكاملة (عبوتان) - 400 درهم"
-                        data-price="400"
+                        value="باقة العناية الكاملة (عبوتان) - 299 درهم"
+                        data-price="299"
                       >
-                        باقة العناية الكاملة (عبوتان) - 400 درهم
+                        باقة العناية الكاملة (عبوتان) - 299 درهم
+                      </option>
+                      <option
+                        value="باقة العناية الكاملة (ثلاث عبوات) - 399 درهم"
+                        data-price="399"
+                      >
+                        باقة العناية الكاملة (ثلاث عبوات) - 399 درهم
                       </option>
                     </select>
                   </div>
@@ -856,7 +935,7 @@
               ></a>
               <a href="https://x.com/azireal99" target="_blank"
                 ><i class="fab fa-twitter"></i>
-</a>
+              </a>
               <a href="https://www.youtube.com/@Azireal99" target="_blank"
                 ><i class="fab fa-youtube"></i
               ></a>
@@ -875,7 +954,6 @@
               <a href="#faq">الأسئلة الشائعة</a>
             </div>
           </div>
-         
         </div>
         <hr class="my-4" />
         <div class="row">
